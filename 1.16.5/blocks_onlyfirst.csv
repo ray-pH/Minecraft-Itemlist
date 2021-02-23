@@ -1,0 +1,764 @@
+name,id,properties
+minecraft:air,0, 
+minecraft:stone,1, 
+minecraft:granite,2, 
+minecraft:polished_granite,3, 
+minecraft:diorite,4, 
+minecraft:polished_diorite,5, 
+minecraft:andesite,6, 
+minecraft:polished_andesite,7, 
+minecraft:grass_block,8,{'snowy': 'true'}
+minecraft:dirt,10, 
+minecraft:coarse_dirt,11, 
+minecraft:podzol,12,{'snowy': 'true'}
+minecraft:cobblestone,14, 
+minecraft:oak_planks,15, 
+minecraft:spruce_planks,16, 
+minecraft:birch_planks,17, 
+minecraft:jungle_planks,18, 
+minecraft:acacia_planks,19, 
+minecraft:dark_oak_planks,20, 
+minecraft:oak_sapling,21,{'stage': '0'}
+minecraft:spruce_sapling,23,{'stage': '0'}
+minecraft:birch_sapling,25,{'stage': '0'}
+minecraft:jungle_sapling,27,{'stage': '0'}
+minecraft:acacia_sapling,29,{'stage': '0'}
+minecraft:dark_oak_sapling,31,{'stage': '0'}
+minecraft:bedrock,33, 
+minecraft:water,34,{'level': '0'}
+minecraft:lava,50,{'level': '0'}
+minecraft:sand,66, 
+minecraft:red_sand,67, 
+minecraft:gravel,68, 
+minecraft:gold_ore,69, 
+minecraft:iron_ore,70, 
+minecraft:coal_ore,71, 
+minecraft:nether_gold_ore,72, 
+minecraft:oak_log,73,{'axis': 'x'}
+minecraft:spruce_log,76,{'axis': 'x'}
+minecraft:birch_log,79,{'axis': 'x'}
+minecraft:jungle_log,82,{'axis': 'x'}
+minecraft:acacia_log,85,{'axis': 'x'}
+minecraft:dark_oak_log,88,{'axis': 'x'}
+minecraft:stripped_spruce_log,91,{'axis': 'x'}
+minecraft:stripped_birch_log,94,{'axis': 'x'}
+minecraft:stripped_jungle_log,97,{'axis': 'x'}
+minecraft:stripped_acacia_log,100,{'axis': 'x'}
+minecraft:stripped_dark_oak_log,103,{'axis': 'x'}
+minecraft:stripped_oak_log,106,{'axis': 'x'}
+minecraft:oak_wood,109,{'axis': 'x'}
+minecraft:spruce_wood,112,{'axis': 'x'}
+minecraft:birch_wood,115,{'axis': 'x'}
+minecraft:jungle_wood,118,{'axis': 'x'}
+minecraft:acacia_wood,121,{'axis': 'x'}
+minecraft:dark_oak_wood,124,{'axis': 'x'}
+minecraft:stripped_oak_wood,127,{'axis': 'x'}
+minecraft:stripped_spruce_wood,130,{'axis': 'x'}
+minecraft:stripped_birch_wood,133,{'axis': 'x'}
+minecraft:stripped_jungle_wood,136,{'axis': 'x'}
+minecraft:stripped_acacia_wood,139,{'axis': 'x'}
+minecraft:stripped_dark_oak_wood,142,{'axis': 'x'}
+minecraft:oak_leaves,145,"{'distance': '1', 'persistent': 'true'}"
+minecraft:spruce_leaves,159,"{'distance': '1', 'persistent': 'true'}"
+minecraft:birch_leaves,173,"{'distance': '1', 'persistent': 'true'}"
+minecraft:jungle_leaves,187,"{'distance': '1', 'persistent': 'true'}"
+minecraft:acacia_leaves,201,"{'distance': '1', 'persistent': 'true'}"
+minecraft:dark_oak_leaves,215,"{'distance': '1', 'persistent': 'true'}"
+minecraft:sponge,229, 
+minecraft:wet_sponge,230, 
+minecraft:glass,231, 
+minecraft:lapis_ore,232, 
+minecraft:lapis_block,233, 
+minecraft:dispenser,234,"{'facing': 'north', 'triggered': 'true'}"
+minecraft:sandstone,246, 
+minecraft:chiseled_sandstone,247, 
+minecraft:cut_sandstone,248, 
+minecraft:note_block,249,"{'instrument': 'harp', 'note': '0', 'powered': 'true'}"
+minecraft:white_bed,1049,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:orange_bed,1065,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:magenta_bed,1081,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:light_blue_bed,1097,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:yellow_bed,1113,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:lime_bed,1129,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:pink_bed,1145,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:gray_bed,1161,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:light_gray_bed,1177,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:cyan_bed,1193,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:purple_bed,1209,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:blue_bed,1225,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:brown_bed,1241,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:green_bed,1257,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:red_bed,1273,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:black_bed,1289,"{'facing': 'north', 'occupied': 'true', 'part': 'head'}"
+minecraft:powered_rail,1305,"{'powered': 'true', 'shape': 'north_south'}"
+minecraft:detector_rail,1317,"{'powered': 'true', 'shape': 'north_south'}"
+minecraft:sticky_piston,1329,"{'extended': 'true', 'facing': 'north'}"
+minecraft:cobweb,1341, 
+minecraft:grass,1342, 
+minecraft:fern,1343, 
+minecraft:dead_bush,1344, 
+minecraft:seagrass,1345, 
+minecraft:tall_seagrass,1346,{'half': 'upper'}
+minecraft:piston,1348,"{'extended': 'true', 'facing': 'north'}"
+minecraft:piston_head,1360,"{'facing': 'north', 'short': 'true', 'type': 'normal'}"
+minecraft:white_wool,1384, 
+minecraft:orange_wool,1385, 
+minecraft:magenta_wool,1386, 
+minecraft:light_blue_wool,1387, 
+minecraft:yellow_wool,1388, 
+minecraft:lime_wool,1389, 
+minecraft:pink_wool,1390, 
+minecraft:gray_wool,1391, 
+minecraft:light_gray_wool,1392, 
+minecraft:cyan_wool,1393, 
+minecraft:purple_wool,1394, 
+minecraft:blue_wool,1395, 
+minecraft:brown_wool,1396, 
+minecraft:green_wool,1397, 
+minecraft:red_wool,1398, 
+minecraft:black_wool,1399, 
+minecraft:moving_piston,1400,"{'facing': 'north', 'type': 'normal'}"
+minecraft:dandelion,1412, 
+minecraft:poppy,1413, 
+minecraft:blue_orchid,1414, 
+minecraft:allium,1415, 
+minecraft:azure_bluet,1416, 
+minecraft:red_tulip,1417, 
+minecraft:orange_tulip,1418, 
+minecraft:white_tulip,1419, 
+minecraft:pink_tulip,1420, 
+minecraft:oxeye_daisy,1421, 
+minecraft:cornflower,1422, 
+minecraft:wither_rose,1423, 
+minecraft:lily_of_the_valley,1424, 
+minecraft:brown_mushroom,1425, 
+minecraft:red_mushroom,1426, 
+minecraft:gold_block,1427, 
+minecraft:iron_block,1428, 
+minecraft:bricks,1429, 
+minecraft:tnt,1430,{'unstable': 'true'}
+minecraft:bookshelf,1432, 
+minecraft:mossy_cobblestone,1433, 
+minecraft:obsidian,1434, 
+minecraft:torch,1435, 
+minecraft:wall_torch,1436,{'facing': 'north'}
+minecraft:fire,1440,"{'age': '0', 'east': 'true', 'north': 'true', 'south': 'true', 'up': 'true', 'west': 'true'}"
+minecraft:soul_fire,1952, 
+minecraft:spawner,1953, 
+minecraft:oak_stairs,1954,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:chest,2034,"{'facing': 'north', 'type': 'single', 'waterlogged': 'true'}"
+minecraft:redstone_wire,2058,"{'east': 'up', 'north': 'up', 'power': '0', 'south': 'up', 'west': 'up'}"
+minecraft:diamond_ore,3354, 
+minecraft:diamond_block,3355, 
+minecraft:crafting_table,3356, 
+minecraft:wheat,3357,{'age': '0'}
+minecraft:farmland,3365,{'moisture': '0'}
+minecraft:furnace,3373,"{'facing': 'north', 'lit': 'true'}"
+minecraft:oak_sign,3381,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:spruce_sign,3413,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:birch_sign,3445,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:acacia_sign,3477,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:jungle_sign,3509,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:dark_oak_sign,3541,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:oak_door,3573,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:ladder,3637,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:rail,3645,{'shape': 'north_south'}
+minecraft:cobblestone_stairs,3655,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:oak_wall_sign,3735,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:spruce_wall_sign,3743,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:birch_wall_sign,3751,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:acacia_wall_sign,3759,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:jungle_wall_sign,3767,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:dark_oak_wall_sign,3775,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:lever,3783,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:stone_pressure_plate,3807,{'powered': 'true'}
+minecraft:iron_door,3809,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:oak_pressure_plate,3873,{'powered': 'true'}
+minecraft:spruce_pressure_plate,3875,{'powered': 'true'}
+minecraft:birch_pressure_plate,3877,{'powered': 'true'}
+minecraft:jungle_pressure_plate,3879,{'powered': 'true'}
+minecraft:acacia_pressure_plate,3881,{'powered': 'true'}
+minecraft:dark_oak_pressure_plate,3883,{'powered': 'true'}
+minecraft:redstone_ore,3885,{'lit': 'true'}
+minecraft:redstone_torch,3887,{'lit': 'true'}
+minecraft:redstone_wall_torch,3889,"{'facing': 'north', 'lit': 'true'}"
+minecraft:stone_button,3897,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:snow,3921,{'layers': '1'}
+minecraft:ice,3929, 
+minecraft:snow_block,3930, 
+minecraft:cactus,3931,{'age': '0'}
+minecraft:clay,3947, 
+minecraft:sugar_cane,3948,{'age': '0'}
+minecraft:jukebox,3964,{'has_record': 'true'}
+minecraft:oak_fence,3966,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:pumpkin,3998, 
+minecraft:netherrack,3999, 
+minecraft:soul_sand,4000, 
+minecraft:soul_soil,4001, 
+minecraft:basalt,4002,{'axis': 'x'}
+minecraft:polished_basalt,4005,{'axis': 'x'}
+minecraft:soul_torch,4008, 
+minecraft:soul_wall_torch,4009,{'facing': 'north'}
+minecraft:glowstone,4013, 
+minecraft:nether_portal,4014,{'axis': 'x'}
+minecraft:carved_pumpkin,4016,{'facing': 'north'}
+minecraft:jack_o_lantern,4020,{'facing': 'north'}
+minecraft:cake,4024,{'bites': '0'}
+minecraft:repeater,4031,"{'delay': '1', 'facing': 'north', 'locked': 'true', 'powered': 'true'}"
+minecraft:white_stained_glass,4095, 
+minecraft:orange_stained_glass,4096, 
+minecraft:magenta_stained_glass,4097, 
+minecraft:light_blue_stained_glass,4098, 
+minecraft:yellow_stained_glass,4099, 
+minecraft:lime_stained_glass,4100, 
+minecraft:pink_stained_glass,4101, 
+minecraft:gray_stained_glass,4102, 
+minecraft:light_gray_stained_glass,4103, 
+minecraft:cyan_stained_glass,4104, 
+minecraft:purple_stained_glass,4105, 
+minecraft:blue_stained_glass,4106, 
+minecraft:brown_stained_glass,4107, 
+minecraft:green_stained_glass,4108, 
+minecraft:red_stained_glass,4109, 
+minecraft:black_stained_glass,4110, 
+minecraft:oak_trapdoor,4111,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:spruce_trapdoor,4175,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:birch_trapdoor,4239,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:jungle_trapdoor,4303,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:acacia_trapdoor,4367,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:dark_oak_trapdoor,4431,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:stone_bricks,4495, 
+minecraft:mossy_stone_bricks,4496, 
+minecraft:cracked_stone_bricks,4497, 
+minecraft:chiseled_stone_bricks,4498, 
+minecraft:infested_stone,4499, 
+minecraft:infested_cobblestone,4500, 
+minecraft:infested_stone_bricks,4501, 
+minecraft:infested_mossy_stone_bricks,4502, 
+minecraft:infested_cracked_stone_bricks,4503, 
+minecraft:infested_chiseled_stone_bricks,4504, 
+minecraft:brown_mushroom_block,4505,"{'down': 'true', 'east': 'true', 'north': 'true', 'south': 'true', 'up': 'true', 'west': 'true'}"
+minecraft:red_mushroom_block,4569,"{'down': 'true', 'east': 'true', 'north': 'true', 'south': 'true', 'up': 'true', 'west': 'true'}"
+minecraft:mushroom_stem,4633,"{'down': 'true', 'east': 'true', 'north': 'true', 'south': 'true', 'up': 'true', 'west': 'true'}"
+minecraft:iron_bars,4697,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:chain,4729,"{'axis': 'x', 'waterlogged': 'true'}"
+minecraft:glass_pane,4735,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:melon,4767, 
+minecraft:attached_pumpkin_stem,4768,{'facing': 'north'}
+minecraft:attached_melon_stem,4772,{'facing': 'north'}
+minecraft:pumpkin_stem,4776,{'age': '0'}
+minecraft:melon_stem,4784,{'age': '0'}
+minecraft:vine,4792,"{'east': 'true', 'north': 'true', 'south': 'true', 'up': 'true', 'west': 'true'}"
+minecraft:oak_fence_gate,4824,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:brick_stairs,4856,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:stone_brick_stairs,4936,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:mycelium,5016,{'snowy': 'true'}
+minecraft:lily_pad,5018, 
+minecraft:nether_bricks,5019, 
+minecraft:nether_brick_fence,5020,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:nether_brick_stairs,5052,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:nether_wart,5132,{'age': '0'}
+minecraft:enchanting_table,5136, 
+minecraft:brewing_stand,5137,"{'has_bottle_0': 'true', 'has_bottle_1': 'true', 'has_bottle_2': 'true'}"
+minecraft:cauldron,5145,{'level': '0'}
+minecraft:end_portal,5149, 
+minecraft:end_portal_frame,5150,"{'eye': 'true', 'facing': 'north'}"
+minecraft:end_stone,5158, 
+minecraft:dragon_egg,5159, 
+minecraft:redstone_lamp,5160,{'lit': 'true'}
+minecraft:cocoa,5162,"{'age': '0', 'facing': 'north'}"
+minecraft:sandstone_stairs,5174,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:emerald_ore,5254, 
+minecraft:ender_chest,5255,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:tripwire_hook,5263,"{'attached': 'true', 'facing': 'north', 'powered': 'true'}"
+minecraft:tripwire,5279,"{'attached': 'true', 'disarmed': 'true', 'east': 'true', 'north': 'true', 'powered': 'true', 'south': 'true', 'west': 'true'}"
+minecraft:emerald_block,5407, 
+minecraft:spruce_stairs,5408,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:birch_stairs,5488,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:jungle_stairs,5568,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:command_block,5648,"{'conditional': 'true', 'facing': 'north'}"
+minecraft:beacon,5660, 
+minecraft:cobblestone_wall,5661,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:mossy_cobblestone_wall,5985,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:flower_pot,6309, 
+minecraft:potted_oak_sapling,6310, 
+minecraft:potted_spruce_sapling,6311, 
+minecraft:potted_birch_sapling,6312, 
+minecraft:potted_jungle_sapling,6313, 
+minecraft:potted_acacia_sapling,6314, 
+minecraft:potted_dark_oak_sapling,6315, 
+minecraft:potted_fern,6316, 
+minecraft:potted_dandelion,6317, 
+minecraft:potted_poppy,6318, 
+minecraft:potted_blue_orchid,6319, 
+minecraft:potted_allium,6320, 
+minecraft:potted_azure_bluet,6321, 
+minecraft:potted_red_tulip,6322, 
+minecraft:potted_orange_tulip,6323, 
+minecraft:potted_white_tulip,6324, 
+minecraft:potted_pink_tulip,6325, 
+minecraft:potted_oxeye_daisy,6326, 
+minecraft:potted_cornflower,6327, 
+minecraft:potted_lily_of_the_valley,6328, 
+minecraft:potted_wither_rose,6329, 
+minecraft:potted_red_mushroom,6330, 
+minecraft:potted_brown_mushroom,6331, 
+minecraft:potted_dead_bush,6332, 
+minecraft:potted_cactus,6333, 
+minecraft:carrots,6334,{'age': '0'}
+minecraft:potatoes,6342,{'age': '0'}
+minecraft:oak_button,6350,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:spruce_button,6374,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:birch_button,6398,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:jungle_button,6422,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:acacia_button,6446,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:dark_oak_button,6470,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:skeleton_skull,6494,{'rotation': '0'}
+minecraft:skeleton_wall_skull,6510,{'facing': 'north'}
+minecraft:wither_skeleton_skull,6514,{'rotation': '0'}
+minecraft:wither_skeleton_wall_skull,6530,{'facing': 'north'}
+minecraft:zombie_head,6534,{'rotation': '0'}
+minecraft:zombie_wall_head,6550,{'facing': 'north'}
+minecraft:player_head,6554,{'rotation': '0'}
+minecraft:player_wall_head,6570,{'facing': 'north'}
+minecraft:creeper_head,6574,{'rotation': '0'}
+minecraft:creeper_wall_head,6590,{'facing': 'north'}
+minecraft:dragon_head,6594,{'rotation': '0'}
+minecraft:dragon_wall_head,6610,{'facing': 'north'}
+minecraft:anvil,6614,{'facing': 'north'}
+minecraft:chipped_anvil,6618,{'facing': 'north'}
+minecraft:damaged_anvil,6622,{'facing': 'north'}
+minecraft:trapped_chest,6626,"{'facing': 'north', 'type': 'single', 'waterlogged': 'true'}"
+minecraft:light_weighted_pressure_plate,6650,{'power': '0'}
+minecraft:heavy_weighted_pressure_plate,6666,{'power': '0'}
+minecraft:comparator,6682,"{'facing': 'north', 'mode': 'compare', 'powered': 'true'}"
+minecraft:daylight_detector,6698,"{'inverted': 'true', 'power': '0'}"
+minecraft:redstone_block,6730, 
+minecraft:nether_quartz_ore,6731, 
+minecraft:hopper,6732,"{'enabled': 'true', 'facing': 'down'}"
+minecraft:quartz_block,6742, 
+minecraft:chiseled_quartz_block,6743, 
+minecraft:quartz_pillar,6744,{'axis': 'x'}
+minecraft:quartz_stairs,6747,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:activator_rail,6827,"{'powered': 'true', 'shape': 'north_south'}"
+minecraft:dropper,6839,"{'facing': 'north', 'triggered': 'true'}"
+minecraft:white_terracotta,6851, 
+minecraft:orange_terracotta,6852, 
+minecraft:magenta_terracotta,6853, 
+minecraft:light_blue_terracotta,6854, 
+minecraft:yellow_terracotta,6855, 
+minecraft:lime_terracotta,6856, 
+minecraft:pink_terracotta,6857, 
+minecraft:gray_terracotta,6858, 
+minecraft:light_gray_terracotta,6859, 
+minecraft:cyan_terracotta,6860, 
+minecraft:purple_terracotta,6861, 
+minecraft:blue_terracotta,6862, 
+minecraft:brown_terracotta,6863, 
+minecraft:green_terracotta,6864, 
+minecraft:red_terracotta,6865, 
+minecraft:black_terracotta,6866, 
+minecraft:white_stained_glass_pane,6867,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:orange_stained_glass_pane,6899,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:magenta_stained_glass_pane,6931,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:light_blue_stained_glass_pane,6963,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:yellow_stained_glass_pane,6995,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:lime_stained_glass_pane,7027,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:pink_stained_glass_pane,7059,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:gray_stained_glass_pane,7091,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:light_gray_stained_glass_pane,7123,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:cyan_stained_glass_pane,7155,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:purple_stained_glass_pane,7187,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:blue_stained_glass_pane,7219,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:brown_stained_glass_pane,7251,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:green_stained_glass_pane,7283,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:red_stained_glass_pane,7315,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:black_stained_glass_pane,7347,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:acacia_stairs,7379,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:dark_oak_stairs,7459,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:slime_block,7539, 
+minecraft:barrier,7540, 
+minecraft:iron_trapdoor,7541,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:prismarine,7605, 
+minecraft:prismarine_bricks,7606, 
+minecraft:dark_prismarine,7607, 
+minecraft:prismarine_stairs,7608,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:prismarine_brick_stairs,7688,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:dark_prismarine_stairs,7768,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:prismarine_slab,7848,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:prismarine_brick_slab,7854,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:dark_prismarine_slab,7860,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:sea_lantern,7866, 
+minecraft:hay_block,7867,{'axis': 'x'}
+minecraft:white_carpet,7870, 
+minecraft:orange_carpet,7871, 
+minecraft:magenta_carpet,7872, 
+minecraft:light_blue_carpet,7873, 
+minecraft:yellow_carpet,7874, 
+minecraft:lime_carpet,7875, 
+minecraft:pink_carpet,7876, 
+minecraft:gray_carpet,7877, 
+minecraft:light_gray_carpet,7878, 
+minecraft:cyan_carpet,7879, 
+minecraft:purple_carpet,7880, 
+minecraft:blue_carpet,7881, 
+minecraft:brown_carpet,7882, 
+minecraft:green_carpet,7883, 
+minecraft:red_carpet,7884, 
+minecraft:black_carpet,7885, 
+minecraft:terracotta,7886, 
+minecraft:coal_block,7887, 
+minecraft:packed_ice,7888, 
+minecraft:sunflower,7889,{'half': 'upper'}
+minecraft:lilac,7891,{'half': 'upper'}
+minecraft:rose_bush,7893,{'half': 'upper'}
+minecraft:peony,7895,{'half': 'upper'}
+minecraft:tall_grass,7897,{'half': 'upper'}
+minecraft:large_fern,7899,{'half': 'upper'}
+minecraft:white_banner,7901,{'rotation': '0'}
+minecraft:orange_banner,7917,{'rotation': '0'}
+minecraft:magenta_banner,7933,{'rotation': '0'}
+minecraft:light_blue_banner,7949,{'rotation': '0'}
+minecraft:yellow_banner,7965,{'rotation': '0'}
+minecraft:lime_banner,7981,{'rotation': '0'}
+minecraft:pink_banner,7997,{'rotation': '0'}
+minecraft:gray_banner,8013,{'rotation': '0'}
+minecraft:light_gray_banner,8029,{'rotation': '0'}
+minecraft:cyan_banner,8045,{'rotation': '0'}
+minecraft:purple_banner,8061,{'rotation': '0'}
+minecraft:blue_banner,8077,{'rotation': '0'}
+minecraft:brown_banner,8093,{'rotation': '0'}
+minecraft:green_banner,8109,{'rotation': '0'}
+minecraft:red_banner,8125,{'rotation': '0'}
+minecraft:black_banner,8141,{'rotation': '0'}
+minecraft:white_wall_banner,8157,{'facing': 'north'}
+minecraft:orange_wall_banner,8161,{'facing': 'north'}
+minecraft:magenta_wall_banner,8165,{'facing': 'north'}
+minecraft:light_blue_wall_banner,8169,{'facing': 'north'}
+minecraft:yellow_wall_banner,8173,{'facing': 'north'}
+minecraft:lime_wall_banner,8177,{'facing': 'north'}
+minecraft:pink_wall_banner,8181,{'facing': 'north'}
+minecraft:gray_wall_banner,8185,{'facing': 'north'}
+minecraft:light_gray_wall_banner,8189,{'facing': 'north'}
+minecraft:cyan_wall_banner,8193,{'facing': 'north'}
+minecraft:purple_wall_banner,8197,{'facing': 'north'}
+minecraft:blue_wall_banner,8201,{'facing': 'north'}
+minecraft:brown_wall_banner,8205,{'facing': 'north'}
+minecraft:green_wall_banner,8209,{'facing': 'north'}
+minecraft:red_wall_banner,8213,{'facing': 'north'}
+minecraft:black_wall_banner,8217,{'facing': 'north'}
+minecraft:red_sandstone,8221, 
+minecraft:chiseled_red_sandstone,8222, 
+minecraft:cut_red_sandstone,8223, 
+minecraft:red_sandstone_stairs,8224,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:oak_slab,8304,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:spruce_slab,8310,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:birch_slab,8316,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:jungle_slab,8322,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:acacia_slab,8328,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:dark_oak_slab,8334,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:stone_slab,8340,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:smooth_stone_slab,8346,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:sandstone_slab,8352,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:cut_sandstone_slab,8358,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:petrified_oak_slab,8364,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:cobblestone_slab,8370,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:brick_slab,8376,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:stone_brick_slab,8382,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:nether_brick_slab,8388,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:quartz_slab,8394,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:red_sandstone_slab,8400,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:cut_red_sandstone_slab,8406,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:purpur_slab,8412,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:smooth_stone,8418, 
+minecraft:smooth_sandstone,8419, 
+minecraft:smooth_quartz,8420, 
+minecraft:smooth_red_sandstone,8421, 
+minecraft:spruce_fence_gate,8422,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:birch_fence_gate,8454,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:jungle_fence_gate,8486,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:acacia_fence_gate,8518,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:dark_oak_fence_gate,8550,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:spruce_fence,8582,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:birch_fence,8614,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:jungle_fence,8646,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:acacia_fence,8678,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:dark_oak_fence,8710,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:spruce_door,8742,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:birch_door,8806,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:jungle_door,8870,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:acacia_door,8934,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:dark_oak_door,8998,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:end_rod,9062,{'facing': 'north'}
+minecraft:chorus_plant,9068,"{'down': 'true', 'east': 'true', 'north': 'true', 'south': 'true', 'up': 'true', 'west': 'true'}"
+minecraft:chorus_flower,9132,{'age': '0'}
+minecraft:purpur_block,9138, 
+minecraft:purpur_pillar,9139,{'axis': 'x'}
+minecraft:purpur_stairs,9142,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:end_stone_bricks,9222, 
+minecraft:beetroots,9223,{'age': '0'}
+minecraft:grass_path,9227, 
+minecraft:end_gateway,9228, 
+minecraft:repeating_command_block,9229,"{'conditional': 'true', 'facing': 'north'}"
+minecraft:chain_command_block,9241,"{'conditional': 'true', 'facing': 'north'}"
+minecraft:frosted_ice,9253,{'age': '0'}
+minecraft:magma_block,9257, 
+minecraft:nether_wart_block,9258, 
+minecraft:red_nether_bricks,9259, 
+minecraft:bone_block,9260,{'axis': 'x'}
+minecraft:structure_void,9263, 
+minecraft:observer,9264,"{'facing': 'north', 'powered': 'true'}"
+minecraft:shulker_box,9276,{'facing': 'north'}
+minecraft:white_shulker_box,9282,{'facing': 'north'}
+minecraft:orange_shulker_box,9288,{'facing': 'north'}
+minecraft:magenta_shulker_box,9294,{'facing': 'north'}
+minecraft:light_blue_shulker_box,9300,{'facing': 'north'}
+minecraft:yellow_shulker_box,9306,{'facing': 'north'}
+minecraft:lime_shulker_box,9312,{'facing': 'north'}
+minecraft:pink_shulker_box,9318,{'facing': 'north'}
+minecraft:gray_shulker_box,9324,{'facing': 'north'}
+minecraft:light_gray_shulker_box,9330,{'facing': 'north'}
+minecraft:cyan_shulker_box,9336,{'facing': 'north'}
+minecraft:purple_shulker_box,9342,{'facing': 'north'}
+minecraft:blue_shulker_box,9348,{'facing': 'north'}
+minecraft:brown_shulker_box,9354,{'facing': 'north'}
+minecraft:green_shulker_box,9360,{'facing': 'north'}
+minecraft:red_shulker_box,9366,{'facing': 'north'}
+minecraft:black_shulker_box,9372,{'facing': 'north'}
+minecraft:white_glazed_terracotta,9378,{'facing': 'north'}
+minecraft:orange_glazed_terracotta,9382,{'facing': 'north'}
+minecraft:magenta_glazed_terracotta,9386,{'facing': 'north'}
+minecraft:light_blue_glazed_terracotta,9390,{'facing': 'north'}
+minecraft:yellow_glazed_terracotta,9394,{'facing': 'north'}
+minecraft:lime_glazed_terracotta,9398,{'facing': 'north'}
+minecraft:pink_glazed_terracotta,9402,{'facing': 'north'}
+minecraft:gray_glazed_terracotta,9406,{'facing': 'north'}
+minecraft:light_gray_glazed_terracotta,9410,{'facing': 'north'}
+minecraft:cyan_glazed_terracotta,9414,{'facing': 'north'}
+minecraft:purple_glazed_terracotta,9418,{'facing': 'north'}
+minecraft:blue_glazed_terracotta,9422,{'facing': 'north'}
+minecraft:brown_glazed_terracotta,9426,{'facing': 'north'}
+minecraft:green_glazed_terracotta,9430,{'facing': 'north'}
+minecraft:red_glazed_terracotta,9434,{'facing': 'north'}
+minecraft:black_glazed_terracotta,9438,{'facing': 'north'}
+minecraft:white_concrete,9442, 
+minecraft:orange_concrete,9443, 
+minecraft:magenta_concrete,9444, 
+minecraft:light_blue_concrete,9445, 
+minecraft:yellow_concrete,9446, 
+minecraft:lime_concrete,9447, 
+minecraft:pink_concrete,9448, 
+minecraft:gray_concrete,9449, 
+minecraft:light_gray_concrete,9450, 
+minecraft:cyan_concrete,9451, 
+minecraft:purple_concrete,9452, 
+minecraft:blue_concrete,9453, 
+minecraft:brown_concrete,9454, 
+minecraft:green_concrete,9455, 
+minecraft:red_concrete,9456, 
+minecraft:black_concrete,9457, 
+minecraft:white_concrete_powder,9458, 
+minecraft:orange_concrete_powder,9459, 
+minecraft:magenta_concrete_powder,9460, 
+minecraft:light_blue_concrete_powder,9461, 
+minecraft:yellow_concrete_powder,9462, 
+minecraft:lime_concrete_powder,9463, 
+minecraft:pink_concrete_powder,9464, 
+minecraft:gray_concrete_powder,9465, 
+minecraft:light_gray_concrete_powder,9466, 
+minecraft:cyan_concrete_powder,9467, 
+minecraft:purple_concrete_powder,9468, 
+minecraft:blue_concrete_powder,9469, 
+minecraft:brown_concrete_powder,9470, 
+minecraft:green_concrete_powder,9471, 
+minecraft:red_concrete_powder,9472, 
+minecraft:black_concrete_powder,9473, 
+minecraft:kelp,9474,{'age': '0'}
+minecraft:kelp_plant,9500, 
+minecraft:dried_kelp_block,9501, 
+minecraft:turtle_egg,9502,"{'eggs': '1', 'hatch': '0'}"
+minecraft:dead_tube_coral_block,9514, 
+minecraft:dead_brain_coral_block,9515, 
+minecraft:dead_bubble_coral_block,9516, 
+minecraft:dead_fire_coral_block,9517, 
+minecraft:dead_horn_coral_block,9518, 
+minecraft:tube_coral_block,9519, 
+minecraft:brain_coral_block,9520, 
+minecraft:bubble_coral_block,9521, 
+minecraft:fire_coral_block,9522, 
+minecraft:horn_coral_block,9523, 
+minecraft:dead_tube_coral,9524,{'waterlogged': 'true'}
+minecraft:dead_brain_coral,9526,{'waterlogged': 'true'}
+minecraft:dead_bubble_coral,9528,{'waterlogged': 'true'}
+minecraft:dead_fire_coral,9530,{'waterlogged': 'true'}
+minecraft:dead_horn_coral,9532,{'waterlogged': 'true'}
+minecraft:tube_coral,9534,{'waterlogged': 'true'}
+minecraft:brain_coral,9536,{'waterlogged': 'true'}
+minecraft:bubble_coral,9538,{'waterlogged': 'true'}
+minecraft:fire_coral,9540,{'waterlogged': 'true'}
+minecraft:horn_coral,9542,{'waterlogged': 'true'}
+minecraft:dead_tube_coral_fan,9544,{'waterlogged': 'true'}
+minecraft:dead_brain_coral_fan,9546,{'waterlogged': 'true'}
+minecraft:dead_bubble_coral_fan,9548,{'waterlogged': 'true'}
+minecraft:dead_fire_coral_fan,9550,{'waterlogged': 'true'}
+minecraft:dead_horn_coral_fan,9552,{'waterlogged': 'true'}
+minecraft:tube_coral_fan,9554,{'waterlogged': 'true'}
+minecraft:brain_coral_fan,9556,{'waterlogged': 'true'}
+minecraft:bubble_coral_fan,9558,{'waterlogged': 'true'}
+minecraft:fire_coral_fan,9560,{'waterlogged': 'true'}
+minecraft:horn_coral_fan,9562,{'waterlogged': 'true'}
+minecraft:dead_tube_coral_wall_fan,9564,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:dead_brain_coral_wall_fan,9572,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:dead_bubble_coral_wall_fan,9580,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:dead_fire_coral_wall_fan,9588,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:dead_horn_coral_wall_fan,9596,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:tube_coral_wall_fan,9604,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:brain_coral_wall_fan,9612,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:bubble_coral_wall_fan,9620,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:fire_coral_wall_fan,9628,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:horn_coral_wall_fan,9636,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:sea_pickle,9644,"{'pickles': '1', 'waterlogged': 'true'}"
+minecraft:blue_ice,9652, 
+minecraft:conduit,9653,{'waterlogged': 'true'}
+minecraft:bamboo_sapling,9655, 
+minecraft:bamboo,9656,"{'age': '0', 'leaves': 'none', 'stage': '0'}"
+minecraft:potted_bamboo,9668, 
+minecraft:void_air,9669, 
+minecraft:cave_air,9670, 
+minecraft:bubble_column,9671,{'drag': 'true'}
+minecraft:polished_granite_stairs,9673,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:smooth_red_sandstone_stairs,9753,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:mossy_stone_brick_stairs,9833,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:polished_diorite_stairs,9913,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:mossy_cobblestone_stairs,9993,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:end_stone_brick_stairs,10073,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:stone_stairs,10153,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:smooth_sandstone_stairs,10233,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:smooth_quartz_stairs,10313,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:granite_stairs,10393,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:andesite_stairs,10473,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:red_nether_brick_stairs,10553,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:polished_andesite_stairs,10633,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:diorite_stairs,10713,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:polished_granite_slab,10793,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:smooth_red_sandstone_slab,10799,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:mossy_stone_brick_slab,10805,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:polished_diorite_slab,10811,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:mossy_cobblestone_slab,10817,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:end_stone_brick_slab,10823,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:smooth_sandstone_slab,10829,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:smooth_quartz_slab,10835,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:granite_slab,10841,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:andesite_slab,10847,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:red_nether_brick_slab,10853,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:polished_andesite_slab,10859,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:diorite_slab,10865,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:brick_wall,10871,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:prismarine_wall,11195,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:red_sandstone_wall,11519,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:mossy_stone_brick_wall,11843,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:granite_wall,12167,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:stone_brick_wall,12491,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:nether_brick_wall,12815,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:andesite_wall,13139,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:red_nether_brick_wall,13463,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:sandstone_wall,13787,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:end_stone_brick_wall,14111,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:diorite_wall,14435,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:scaffolding,14759,"{'bottom': 'true', 'distance': '0', 'waterlogged': 'true'}"
+minecraft:loom,14791,{'facing': 'north'}
+minecraft:barrel,14795,"{'facing': 'north', 'open': 'true'}"
+minecraft:smoker,14807,"{'facing': 'north', 'lit': 'true'}"
+minecraft:blast_furnace,14815,"{'facing': 'north', 'lit': 'true'}"
+minecraft:cartography_table,14823, 
+minecraft:fletching_table,14824, 
+minecraft:grindstone,14825,"{'face': 'floor', 'facing': 'north'}"
+minecraft:lectern,14837,"{'facing': 'north', 'has_book': 'true', 'powered': 'true'}"
+minecraft:smithing_table,14853, 
+minecraft:stonecutter,14854,{'facing': 'north'}
+minecraft:bell,14858,"{'attachment': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:lantern,14890,"{'hanging': 'true', 'waterlogged': 'true'}"
+minecraft:soul_lantern,14894,"{'hanging': 'true', 'waterlogged': 'true'}"
+minecraft:campfire,14898,"{'facing': 'north', 'lit': 'true', 'signal_fire': 'true', 'waterlogged': 'true'}"
+minecraft:soul_campfire,14930,"{'facing': 'north', 'lit': 'true', 'signal_fire': 'true', 'waterlogged': 'true'}"
+minecraft:sweet_berry_bush,14962,{'age': '0'}
+minecraft:warped_stem,14966,{'axis': 'x'}
+minecraft:stripped_warped_stem,14969,{'axis': 'x'}
+minecraft:warped_hyphae,14972,{'axis': 'x'}
+minecraft:stripped_warped_hyphae,14975,{'axis': 'x'}
+minecraft:warped_nylium,14978, 
+minecraft:warped_fungus,14979, 
+minecraft:warped_wart_block,14980, 
+minecraft:warped_roots,14981, 
+minecraft:nether_sprouts,14982, 
+minecraft:crimson_stem,14983,{'axis': 'x'}
+minecraft:stripped_crimson_stem,14986,{'axis': 'x'}
+minecraft:crimson_hyphae,14989,{'axis': 'x'}
+minecraft:stripped_crimson_hyphae,14992,{'axis': 'x'}
+minecraft:crimson_nylium,14995, 
+minecraft:crimson_fungus,14996, 
+minecraft:shroomlight,14997, 
+minecraft:weeping_vines,14998,{'age': '0'}
+minecraft:weeping_vines_plant,15024, 
+minecraft:twisting_vines,15025,{'age': '0'}
+minecraft:twisting_vines_plant,15051, 
+minecraft:crimson_roots,15052, 
+minecraft:crimson_planks,15053, 
+minecraft:warped_planks,15054, 
+minecraft:crimson_slab,15055,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:warped_slab,15061,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:crimson_pressure_plate,15067,{'powered': 'true'}
+minecraft:warped_pressure_plate,15069,{'powered': 'true'}
+minecraft:crimson_fence,15071,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:warped_fence,15103,"{'east': 'true', 'north': 'true', 'south': 'true', 'waterlogged': 'true', 'west': 'true'}"
+minecraft:crimson_trapdoor,15135,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:warped_trapdoor,15199,"{'facing': 'north', 'half': 'top', 'open': 'true', 'powered': 'true', 'waterlogged': 'true'}"
+minecraft:crimson_fence_gate,15263,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:warped_fence_gate,15295,"{'facing': 'north', 'in_wall': 'true', 'open': 'true', 'powered': 'true'}"
+minecraft:crimson_stairs,15327,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:warped_stairs,15407,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:crimson_button,15487,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:warped_button,15511,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:crimson_door,15535,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:warped_door,15599,"{'facing': 'north', 'half': 'upper', 'hinge': 'left', 'open': 'true', 'powered': 'true'}"
+minecraft:crimson_sign,15663,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:warped_sign,15695,"{'rotation': '0', 'waterlogged': 'true'}"
+minecraft:crimson_wall_sign,15727,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:warped_wall_sign,15735,"{'facing': 'north', 'waterlogged': 'true'}"
+minecraft:structure_block,15743,{'mode': 'save'}
+minecraft:jigsaw,15747,{'orientation': 'down_east'}
+minecraft:composter,15759,{'level': '0'}
+minecraft:target,15768,{'power': '0'}
+minecraft:bee_nest,15784,"{'facing': 'north', 'honey_level': '0'}"
+minecraft:beehive,15808,"{'facing': 'north', 'honey_level': '0'}"
+minecraft:honey_block,15832, 
+minecraft:honeycomb_block,15833, 
+minecraft:netherite_block,15834, 
+minecraft:ancient_debris,15835, 
+minecraft:crying_obsidian,15836, 
+minecraft:respawn_anchor,15837,{'charges': '0'}
+minecraft:potted_crimson_fungus,15842, 
+minecraft:potted_warped_fungus,15843, 
+minecraft:potted_crimson_roots,15844, 
+minecraft:potted_warped_roots,15845, 
+minecraft:lodestone,15846, 
+minecraft:blackstone,15847, 
+minecraft:blackstone_stairs,15848,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:blackstone_wall,15928,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:blackstone_slab,16252,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:polished_blackstone,16258, 
+minecraft:polished_blackstone_bricks,16259, 
+minecraft:cracked_polished_blackstone_bricks,16260, 
+minecraft:chiseled_polished_blackstone,16261, 
+minecraft:polished_blackstone_brick_slab,16262,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:polished_blackstone_brick_stairs,16268,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:polished_blackstone_brick_wall,16348,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:gilded_blackstone,16672, 
+minecraft:polished_blackstone_stairs,16673,"{'facing': 'north', 'half': 'top', 'shape': 'straight', 'waterlogged': 'true'}"
+minecraft:polished_blackstone_slab,16753,"{'type': 'top', 'waterlogged': 'true'}"
+minecraft:polished_blackstone_pressure_plate,16759,{'powered': 'true'}
+minecraft:polished_blackstone_button,16761,"{'face': 'floor', 'facing': 'north', 'powered': 'true'}"
+minecraft:polished_blackstone_wall,16785,"{'east': 'none', 'north': 'none', 'south': 'none', 'up': 'true', 'waterlogged': 'true', 'west': 'none'}"
+minecraft:chiseled_nether_bricks,17109, 
+minecraft:cracked_nether_bricks,17110, 
+minecraft:quartz_bricks,17111, 
